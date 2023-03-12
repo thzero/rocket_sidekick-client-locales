@@ -519,7 +519,8 @@
 			},
 			"rockets": {
 				"title": "Rockets"
-			}
+			},
+			"website": "Website"
 		},
 		"launches": {
 			"title": "Launches"
