@@ -553,7 +553,9 @@
 		"reset": "Reset",
 		"saved": "Saved",
 		"thrust2Weight": {
+			"offline": "You are offline, only motors from previous online searches will be available.",
 			"motor": {
+				"offline": "You are offline, and the motor was not found in the local cache.",
 				"selected": "Selected Motor",
 				"unselected": "Unable to select the motor, try again."
 			}
