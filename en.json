@@ -28,7 +28,8 @@
 		"start": "Start",
 		"submit": "Submit",
 		"top": "Top",
-		"use": "Use"
+		"use": "Use",
+		"view": "View"
 	},
 	"charts": {
 		"flightInfo": {
@@ -68,6 +69,9 @@
 				"titleF": "Velocity (F)"
 			}
 		}
+	},
+	"checklists": {
+		"name": "Checklists"
 	},
 	"errors": {
 		"adminNews": {
@@ -541,6 +545,10 @@
 		}
 	},
 	"messages": {
+		"checklists": {
+			"delete_confirm": "You are sure you want to delete this checklist?",
+			"start_confirm": "Ready to start the checklist?"
+		},
 		"calculated": "Calculated",
 		"clickOrHover": {
 			"description": "Click or hover to see description..."
@@ -874,6 +882,7 @@
 				"weathercocking": "Weathercocking"
 			}
 		},
+		"copy": "Copy",
 		"edit": "Edit",
 		"editType": "Edit {type}",
 		"external": {
