@@ -8,6 +8,7 @@
 		"rememberMe": "Rembmer Me"
 	},
 	"buttons": {
+		"add": "Add",
 		"back": "Back",
 		"calculate": "Calculate",
 		"cancel": "Cancel",
@@ -291,6 +292,7 @@
 				}
 			}
 		},
+		"description": "description",
 		"external": {
 			"motorSearch": {
 				"diameter": "Diameter",
@@ -562,6 +564,7 @@
 		"processing": "Processing",
 		"reset": "Reset",
 		"saved": "Saved",
+		"saved_failed": "Save failed, try again",
 		"thrust2Weight": {
 			"offline": "You are offline, only motors from previous online searches will be available.",
 			"motor": {
