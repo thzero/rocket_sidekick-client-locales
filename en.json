@@ -508,6 +508,7 @@
 				"3dprinting": "3D Printing", 
 				"epoxy": "Epoxy",
 				"highPower": "High Power Rocketry",
+				"safetyRules": "Safety Rules",
 				"shearPins": "Shear Pins"
 			},
 			"links": {
@@ -853,6 +854,7 @@
 				"3dprinting": "3D Printing", 
 				"epoxy": "Epoxy", 
 				"highPower": "High Power Rocketry",
+				"safetyRules": "Safety Rules",
 				"shearPins": "Shear Pins"
 			},
 			"links": {
