@@ -849,6 +849,7 @@
 			"yours": "Your"
 		},
 		"content": {
+			"name": "Content",
 			"info": {
 				"title": "Information", 
 				"3dprinting": "3D Printing", 
