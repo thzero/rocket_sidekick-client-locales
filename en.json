@@ -550,7 +550,9 @@
 	"messages": {
 		"checklists": {
 			"delete_confirm": "You are sure you want to delete this checklist?",
-			"start_confirm": "Ready to start the checklist?"
+			"start_confirm": "Ready to start the checklist?",
+			"content_reset_failed": "Content reset failed, try again!",
+			"content_reset_success": "Content reset was successful!"
 		},
 		"calculated": "Calculated",
 		"clickOrHover": {
@@ -843,6 +845,7 @@
 	},
 	"titles": {
 		"about": "About",
+		"admin": "Admin",
 		"application": "Rocket Sidekick",
 		"checklists": {
 			"title": "Checklists",
