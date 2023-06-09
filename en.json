@@ -579,7 +579,7 @@
 	},
 	"mobileApp": {
 		"notYetAvailable": "Coming Soon!",
-		"text1": "The RocketSidekick mobile application (for Android, and eventually iOS) provides additional capabilities that \nprovides some additional capabilities that are focused in the field usage.  Not all of the capabilities will be available on both\napplications.\n\nThe mobile applications capabilities are:\n\n* Ability to calculate Thrust to Weight ratios\n* Ability to search motors via ThrurstCurve.org's applications\n* Search results are cached on the mobile device\n\t* Create and maintain <sup>1</sup>\n\t* Launch preparation checklists\n\t* Rocket inventory\n\t* Parachute inventory\n\t* Altimeter inventory\n\t* GPS Tracker inventory\n* Execute a preparation checklist for a launch\n* Track launches and success or failure of the launch <sup>1</sup>\n\n<sup>1</sup> Items marked with an asterik will also sync with the web application and may also be available to maintain within the web application."
+		"text1": "The Rocket Sidekick mobile application (for Android, and eventually iOS) provides additional capabilities that \nprovides some additional capabilities that are focused in the field usage.  Not all of the capabilities will be available on both\napplications.\n\nThe mobile applications capabilities are:\n\n* Ability to calculate Thrust to Weight ratios\n* Ability to search motors via ThrurstCurve.org's applications\n* Search results are cached on the mobile device\n\t* Create and maintain <sup>1</sup>\n\t* Launch preparation checklists\n\t* Rocket inventory\n\t* Parachute inventory\n\t* Altimeter inventory\n\t* GPS Tracker inventory\n* Execute a preparation checklist for a launch\n* Track launches and success or failure of the launch <sup>1</sup>\n\n<sup>1</sup> Items marked with an asterik will also sync with the web application and may also be available to maintain within the web application."
 	},
 	"motorSearch": {
 		"title": "Motor Search",
@@ -753,6 +753,19 @@
 					"desc": "Collected information about Shear Pins and their use in High Power Rocketry!"
 				}
 			},
+			"home": {
+				"slideshow": {
+					"name": "Model Rocketry Primer",
+					"description": "A high level primer on what the exciting world of model rocketry is!"
+				},
+				"tools": {
+					"additional1a": "Contributions for additional tools are welcome via Pull Requests on the site's GitHub repo (",
+					"additional1b": ").  See the documentation on the repo.",
+					"description": "The following is the selection of information and tools currently available.",
+					"mobile": "Not all the tools are available on the mobile application; it's focus is information and tools that are useful on the field at rocket launches. Checkout [url] website for more tools and information!"
+				}, 
+				"welcome": "RocketSidekick hosts a variety of information topics and tools for model rocketry.  Some of the tools are designed specifically for Rocket Sidekick, others are based on formulas found in variety of rocketry forums and sites, as well as some sections having links or information."
+			},
 			"links": {
 				"simulators": {
 					"desc": "A nice article about simulators for model rocketry by ThrustCurve.org."
@@ -815,12 +828,7 @@
 					"degrees": "Calculated Degrees",
 					"weathercocked": "Weathercocked (> 20 deg)"
 				}
-			},
-			"welcome": "RocketSidekick hosts a variety of tools in once place for model rocketry.  Some of the tools are designed specifically for Rocket Sidekick, others are based on formulas found in variety of rocketry forums and sites, as well as some sections having links or information.",
-			"welcome1a": "Contributions for additional tools are welcome via Pull Requests on the site's GitHub repo (",
-			"welcome1b": ").  See the documentation on the repo.",
-			"welcomeTools": "The following is the selection of tools and information currently available.",
-			"welcome3": "A high level primer on what the exciting world of model rocketry is!"
+			}
 		},
 		"copyright": "Copyright",
 		"copyright2": "Copyright © ",
