@@ -754,6 +754,7 @@
 				}
 			},
 			"home": {
+				"description": "RocketSidekick hosts a variety of information topics and tools for model rocketry.  Some of the tools are designed specifically for Rocket Sidekick, others are based on formulas found in variety of rocketry forums and sites, as well as some sections having links or information.",
 				"slideshow": {
 					"name": "Model Rocketry Primer",
 					"description": "A high level primer on what the exciting world of model rocketry is!"
@@ -763,8 +764,7 @@
 					"additional1b": ").  See the documentation on the repo.",
 					"description": "The following is the selection of information and tools currently available.",
 					"mobile": "Not all the tools are available on the mobile application; it's focus is information and tools that are useful on the field at rocket launches. Checkout [url] website for more tools and information!"
-				}, 
-				"welcome": "RocketSidekick hosts a variety of information topics and tools for model rocketry.  Some of the tools are designed specifically for Rocket Sidekick, others are based on formulas found in variety of rocketry forums and sites, as well as some sections having links or information."
+				}
 			},
 			"links": {
 				"simulators": {
