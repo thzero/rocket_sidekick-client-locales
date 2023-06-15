@@ -516,7 +516,7 @@
 				"simulators": "Simulators"
 			},
 			"rockets": {
-				"title": "Rockets"
+				"title": "Rocket Gallery"
 			},
 			"tools": {
 				"title": "Tools", 
@@ -922,7 +922,7 @@
 		"newsLatest": "Latest News",
 		"openSource": "Open Source",
 		"rockets": {
-			"title": "Rockets",
+			"title": "Rocket Gallery",
 			"albums": "Photo Albums",
 			"launches": "Flight Logs",
 			"specifications": "Specifications",
