@@ -292,6 +292,9 @@
 				}
 			}
 		},
+		"checklists": {
+			"default": "Default Checklist"
+		},
 		"description": "description",
 		"external": {
 			"motorSearch": {
