@@ -30,7 +30,10 @@
 		"submit": "Submit",
 		"top": "Top",
 		"use": "Use",
-		"view": "View"
+		"view": "View",
+		"checklists": {
+			"step": "Step"
+		}
 	},
 	"charts": {
 		"flightInfo": {
