@@ -703,10 +703,10 @@
 				"description": "This cookie contains a token. The token prevents a third party from submitting forms on the website on your behalf. This cookie is valid for 2 hours and is renewed at every page change within the website."
 			}
 		},
-		"checklists": {
-			"isdefault": "Default"
-		},
 		"content": {
+			"checklists": {
+				"isDefault": "Default"
+			},
 			"info": {
 				"3dprinting": {
 					"additionalLinks": "Additional Links",
@@ -780,6 +780,9 @@
 				"simulators": {
 					"desc": "A nice article about simulators for model rocketry by ThrustCurve.org."
 				}
+			},
+			"parts": {
+				"isPublic": "Public"
 			},
 			"tools": {
 				"ejectionCharges": {
@@ -872,12 +875,11 @@
 		"about": "About",
 		"admin": "Admin",
 		"application": "Rocket Sidekick",
-		"checklists": {
-			"title": "Checklists",
-			"yours": "Your"
-		},
 		"content": {
 			"name": "Content",
+			"checklists": {
+				"title": "Checklists"
+			},
 			"info": {
 				"title": "Information", 
 				"3dprinting": "3D Printing", 
@@ -907,6 +909,31 @@
 				"vendors": "Vendors",
 				"videos": "Videos"
 			},
+			"parts": {
+				"altimeters": {
+					"title": "Altimeters"
+				},
+				"motors": {
+					"title": "Motors"
+				},
+				"motorCases": {
+					"title": "Motor Cases"
+				},
+				"parachutes": {
+					"title": "Parachutes"
+				},
+				"title": "Parts",
+				"trackers": {
+					"title": "Trackers"
+				}
+			},
+			"rockets": {
+				"title": "Rocket Gallery",
+				"albums": "Photo Albums",
+				"launches": "Flight Logs",
+				"specifications": "Specifications",
+				"videos": "Video Albums"
+			},
 			"tools": {
 				"flightInfo": "Flight Info",
 				"flightPath": "Flight Path",
@@ -914,7 +941,8 @@
 				"parachuteSizing": "Parachute Sizing",
 				"thrust2Weight": "Thrust 2 Weight",
 				"weathercocking": "Weathercocking"
-			}
+			},
+			"yours": "Your"
 		},
 		"copy": "Copy",
 		"edit": "Edit",
@@ -931,14 +959,6 @@
 		"news": "News",
 		"newsLatest": "Latest News",
 		"openSource": "Open Source",
-		"rockets": {
-			"title": "Rocket Gallery",
-			"albums": "Photo Albums",
-			"launches": "Flight Logs",
-			"specifications": "Specifications",
-			"videos": "Video Albums",
-			"yours": "Your"
-		},
 		"privacy": "Privacy Policy",
 		"profile": "Profile",
 		"settings": "Settings",
