@@ -134,6 +134,11 @@
 	},
 	"forms": {
 		"content": {
+			"parts": {
+				"parachute": {
+					"diameter": "Diameter"
+				}
+			},
 			"tools": {
 				"flightInfo": {
 					"actual": "Actual",
