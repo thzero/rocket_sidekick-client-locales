@@ -136,8 +136,11 @@
 		"content": {
 			"parts": {
 				"parachute": {
-					"diameter": "Diameter"
-				}
+					"name": "Parachute",
+					"diameter": "Diameter",
+					"thinMill": "Thin Mill"
+				},
+				"public": "Public"
 			},
 			"tools": {
 				"flightInfo": {
@@ -827,10 +830,6 @@
 					"calculated": "Calculated Thrust to Weight Ratio",
 					"mass": "Rocket Weight",
 					"mass_hint": "Weight of the rocket fully loaded including engines.",
-					"mass_english": "Pounds",
-					"mass_english_abbr": "lb",
-					"mass_metric": "Kilograms",
-					"mass_metric_abbr": "kg",
 					"motor": "Motor",
 					"newtons": "Newtons",
 					"newtons_abbr": "N",
@@ -855,6 +854,17 @@
 		"delete": "Delete",
 		"edit": "Edit",
 		"load": "Load",
+		"measurements": {
+			"acceleration": "Acceleration",
+			"area": "Area",
+			"density": "Density",
+			"distance": "Distance",
+			"fluid": "Fluid",
+			"length": "Length",
+			"velocity": "Velocity",
+			"volume": "Volume",
+			"weight": "Weight"
+		},
 		"new": "New",
 		"no": "No",
 		"poweredBy": "Powered by",
@@ -864,9 +874,7 @@
 		"rockets": {
 			"buildLogUrl": "Build Log",
 			"diameterMajor": "Diameter",
-			"editing": "Editing is currently only available via the mobile application.",
-			"length": "Length",
-			"weight": "Weight"
+			"editing": "Editing is currently only available via the mobile application."
 		},
 		"save": "Save",
 		"share": "Share",
