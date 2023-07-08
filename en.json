@@ -137,10 +137,12 @@
 			"parts": {
 				"parachute": {
 					"name": "Parachute",
+					"blanket": "Blanket",
 					"diameter": "Diameter",
 					"thinMill": "Thin Mill"
 				},
-				"public": "Public"
+				"public": "Public",
+				"weight": "Weight"
 			},
 			"tools": {
 				"flightInfo": {
