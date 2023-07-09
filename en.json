@@ -138,6 +138,7 @@
 				"parachute": {
 					"name": "Parachute",
 					"blanket": "Blanket",
+					"cd": "Cd",
 					"diameter": "Diameter",
 					"thinMill": "Thin Mill"
 				},
