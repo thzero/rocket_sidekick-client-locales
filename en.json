@@ -140,6 +140,8 @@
 					"blanket": "Blanket",
 					"cd": "Cd",
 					"diameter": "Diameter",
+					"loadMax": "Load Max.",
+					"loadMin": "Load Min.",
 					"thinMill": "Thin Mill"
 				},
 				"public": "Public",
