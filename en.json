@@ -135,17 +135,40 @@
 	"forms": {
 		"content": {
 			"parts": {
+				"altimeter": {
+					"name": "Altimeter"
+				},
+				"chuteProtector": {
+					"name": "Chute Protector"
+				},
+				"chuteRelease": {
+					"name": "Chute Release"
+				},
+				"cd": "Cd",
+				"deploymentBag": {
+					"name": "Deployment Bag"
+				},
+				"diameter": "Diameter",
+				"manufacturerId": "Manufacturer Id",
+				"motor": {
+					"name": "Motor"
+				},
+				"motorCase": {
+					"name": "Motor Case"
+				},
 				"parachute": {
 					"name": "Parachute",
-					"blanket": "Blanket",
-					"cd": "Cd",
-					"diameter": "Diameter",
 					"loadMax": "Load Max.",
 					"loadMin": "Load Min.",
 					"thinMill": "Thin Mill"
 				},
-				"manufacturerId": "Manufacturer Id",
 				"public": "Public",
+				"streamer": {
+					"name": "Streamer"
+				},
+				"tracker": {
+					"name": "Tracker"
+				},
 				"weight": "Weight"
 			},
 			"tools": {
@@ -562,9 +585,17 @@
 			"title": "Your",
 			"altimeters": "Altimeters",
 			"checklists": "Checklists",
+			"chuteProtectors": "Chute Protectors",
+			"chuteReleases": "Chute Releases",
+			"deploymentBags": "Deployment Bags",
 			"launches": "Launches",
+			"motor": "Motors",
+			"motorCases": "Motor Cases",
 			"parachutes": "Parachutes",
-			"rockets": "Rockets"
+			"parts": "Parts",
+			"streamers": "Streamers",
+			"rockets": "Rockets",
+			"trackers": "Trackers"
 		}
 	},
 	"messages": {
