@@ -139,7 +139,8 @@
 					"name": "Altimeter"
 				},
 				"chuteProtector": {
-					"name": "Chute Protector"
+					"name": "Chute Protector",
+					"maxTubeSize": "Max. Tube Size"
 				},
 				"chuteRelease": {
 					"name": "Chute Release"
@@ -963,6 +964,15 @@
 				"altimeters": {
 					"title": "Altimeters"
 				},
+				"chuteProtectors": {
+					"title": "Chute Protectors"
+				},
+				"chuteReleases": {
+					"title": "Chute Releases"
+				},
+				"deploymentBags": {
+					"title": "Deployment Bags"
+				},
 				"motors": {
 					"title": "Motors"
 				},
@@ -971,6 +981,9 @@
 				},
 				"parachutes": {
 					"title": "Parachutes"
+				},
+				"streamers": {
+					"title": "Streamers"
 				},
 				"title": "Parts",
 				"trackers": {
