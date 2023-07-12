@@ -140,6 +140,7 @@
 				},
 				"chuteProtector": {
 					"name": "Chute Protector",
+					"dimension": "Sq. Dimension",
 					"maxTubeSize": "Max. Tube Size"
 				},
 				"chuteRelease": {
@@ -147,9 +148,11 @@
 				},
 				"cd": "Cd",
 				"deploymentBag": {
-					"name": "Deployment Bag"
+					"name": "Deployment Bag",
+					"pilotChute": "Pilot Chute"
 				},
 				"diameter": "Diameter",
+				"length": "Length",
 				"manufacturerId": "Manufacturer Id",
 				"motor": {
 					"name": "Motor"
