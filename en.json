@@ -134,7 +134,13 @@
 	},
 	"forms": {
 		"content": {
+			"manufacturer": {
+				"name": "Manufacturer",
+				"plural": "Manufacturers",
+				"plural_hint": "Max. two selections"
+			},
 			"parts": {
+				"all": "All",
 				"altimeter": {
 					"name": "Altimeter"
 				},
@@ -173,7 +179,8 @@
 				"tracker": {
 					"name": "Tracker"
 				},
-				"weight": "Weight"
+				"weight": "Weight",
+				"yours": "Yours"
 			},
 			"tools": {
 				"flightInfo": {
@@ -344,7 +351,7 @@
 			"motorSearch": {
 				"diameter": "Diameter",
 				"impulseClass": "Impulse Class",
-				"manufacturer": "Manufacturer",
+				"manufacturer": "Manufacturers",
 				"manufacturer_hint": "Max. two selections",
 				"motor": "Motor",
 				"motor_hint": "A motor to lookup by designation",
