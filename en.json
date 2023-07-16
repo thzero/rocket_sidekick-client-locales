@@ -840,6 +840,13 @@
 			"parts": {
 				"isPublic": "Public"
 			},
+			"rockets": {
+				"low": "Low",
+				"mid": "Mid",
+				"highone": "Level 1",
+				"hightwo": "Level 2",
+				"highthree": "Level 3"
+			},
 			"tools": {
 				"ejectionCharges": {
 					"desc": "A tool to calculate the size of ejection charge needed based on body tube volumes."
