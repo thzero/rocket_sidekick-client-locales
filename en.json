@@ -182,6 +182,19 @@
 				"weight": "Weight",
 				"yours": "Yours"
 			},
+			"rockets": {
+				"type": "Rocket Type",
+				"cg": "Center of Gravity",
+				"cgFrom": "Direction",
+				"cp": "Center of Pressure",
+				"cpFrom": "Direction",
+				"diameter": {
+					"major": "Diameter (Major)",
+					"minor": "Diameter (Minor)"
+				},
+				"length": "Length",
+				"weight": "Weight"
+			},
 			"tools": {
 				"flightInfo": {
 					"actual": "Actual",
