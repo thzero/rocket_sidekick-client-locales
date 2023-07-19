@@ -134,6 +134,12 @@
 	},
 	"forms": {
 		"content": {
+			"checklist": {
+				"all": "All",
+				"default": "Default",
+				"shared": "Shared",
+				"yours": "Yours"
+			},
 			"manufacturer": {
 				"name": "Manufacturer",
 				"plural": "Manufacturers",
