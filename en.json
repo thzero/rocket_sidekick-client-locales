@@ -31,8 +31,11 @@
 		"top": "Top",
 		"use": "Use",
 		"view": "View",
-		"checklists": {
+		"checklists": {	
 			"step": "Step"
+		},
+		"rockets": {
+			"stage": "Stage"
 		}
 	},
 	"charts": {
@@ -134,7 +137,8 @@
 	},
 	"forms": {
 		"content": {
-			"checklist": {
+			"checklists": {
+				"name": "Checklist",
 				"all": "All",
 				"default": "Default",
 				"shared": "Shared",
@@ -189,6 +193,7 @@
 				"yours": "Yours"
 			},
 			"rockets": {
+				"name": "Rocket",
 				"type": "Rocket Type",
 				"cg": "Center of Gravity",
 				"cgFrom": "Direction",
@@ -633,7 +638,10 @@
 			"delete_confirm": "You are sure you want to delete this checklist?",
 			"start_confirm": "Ready to start the checklist?",
 			"content_reset_failed": "Content reset failed, try again!",
-			"content_reset_success": "Content reset was successful!"
+			"content_reset_success": "Content reset was successful!",
+			"step": {
+				"delete_confirm": "Delete the step?"
+			}
 		},
 		"calculated": "Calculated",
 		"clickOrHover": {
@@ -647,6 +655,14 @@
 		"processed": "Processed",
 		"processing": "Processing",
 		"reset": "Reset",
+		"rockets": {
+			"delete_confirm": "You are sure you want to delete this rocket?",
+			"content_reset_failed": "Content reset failed, try again!",
+			"content_reset_success": "Content reset was successful!",
+			"stage": {
+				"delete_confirm": "Delete the stage?"
+			}
+		},
 		"saved": "Saved",
 		"saved_failed": "Save failed, try again",
 		"thrust2Weight": {
