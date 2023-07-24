@@ -200,7 +200,8 @@
 				"cp": "Center of Pressure",
 				"cpFrom": "Direction",
 				"diameter": {
-					"major": "Diameter (Major)",
+					"name": "Diameter",
+					"major": "Diameter",
 					"minor": "Diameter (Minor)"
 				},
 				"length": "Length",
@@ -963,7 +964,10 @@
 		},
 		"rockets": {
 			"buildLogUrl": "Build Log",
+			"cg": "CG",
+			"cp": "CP",
 			"diameterMajor": "Diameter",
+			"manufacturer": "Manufacturer",
 			"editing": "Editing is currently only available via the mobile application."
 		},
 		"save": "Save",
