@@ -205,6 +205,9 @@
 					"minor": "Diameter (Minor)"
 				},
 				"length": "Length",
+				"stage": {
+					"name": "Stage"
+				},
 				"weight": "Weight"
 			},
 			"tools": {
@@ -371,7 +374,7 @@
 		"checklists": {
 			"default": "Default Checklist"
 		},
-		"description": "description",
+		"description": "Description",
 		"external": {
 			"motorSearch": {
 				"diameter": "Diameter",
