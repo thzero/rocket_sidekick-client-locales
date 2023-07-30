@@ -35,7 +35,9 @@
 			"step": "Step"
 		},
 		"rockets": {
-			"stage": "Stage"
+			"recovery": "Recovery",
+			"stage": "Stage",
+			"tracking": "Tracking"
 		}
 	},
 	"charts": {
