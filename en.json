@@ -148,6 +148,7 @@
 			},
 			"manufacturer": {
 				"name": "Manufacturer",
+				"abbr": "Manu.",
 				"plural": "Manufacturers",
 				"plural_hint": "Max. two selections"
 			},
@@ -172,6 +173,14 @@
 				"diameter": "Diameter",
 				"length": "Length",
 				"manufacturerId": "Manufacturer Id",
+				"max": {
+					"name": "Maxium",
+					"abbr": "Max."
+				},
+				"min": {
+					"name": "Minimum",
+					"abbr": "Min."
+				},
 				"motor": {
 					"name": "Motor"
 				},
@@ -1042,6 +1051,9 @@
 				},
 				"parachutes": {
 					"title": "Parachutes"
+				},
+				"recovery": {
+					"search": "Recovery Search"
 				},
 				"streamers": {
 					"title": "Streamers"
