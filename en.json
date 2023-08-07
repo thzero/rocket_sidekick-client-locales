@@ -33,11 +33,6 @@
 		"view": "View",
 		"checklists": {	
 			"step": "Step"
-		},
-		"rockets": {
-			"recovery": "Recovery",
-			"stage": "Stage",
-			"tracking": "Tracking"
 		}
 	},
 	"charts": {
