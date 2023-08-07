@@ -155,19 +155,23 @@
 			"parts": {
 				"all": "All",
 				"altimeter": {
-					"name": "Altimeter"
+					"name": "Altimeter",
+					"plural": "Altimeters"
 				},
 				"chuteProtector": {
 					"name": "Chute Protector",
+					"plural": "Chute Protectors",
 					"dimension": "Sq. Dimension",
 					"maxTubeSize": "Max. Tube Size"
 				},
 				"chuteRelease": {
-					"name": "Chute Release"
+					"name": "Chute Release",
+					"plural": "Chute Releases"
 				},
 				"cd": "Cd",
 				"deploymentBag": {
 					"name": "Deployment Bag",
+					"plural": "Deployment Bags",
 					"pilotChute": "Pilot Chute"
 				},
 				"diameter": "Diameter",
@@ -189,16 +193,20 @@
 				},
 				"parachute": {
 					"name": "Parachute",
+					"plural": "Parachutes",
 					"loadMax": "Load Max.",
 					"loadMin": "Load Min.",
 					"thinMill": "Thin Mill"
 				},
 				"public": "Public",
+				"recovery": "Recovery",
 				"streamer": {
-					"name": "Streamer"
+					"name": "Streamer",
+					"plural": "Streamers"
 				},
 				"tracker": {
-					"name": "Tracker"
+					"name": "Tracker",
+					"plural": "Trackers"
 				},
 				"weight": "Weight",
 				"yours": "Yours"
@@ -217,7 +225,8 @@
 				},
 				"length": "Length",
 				"stage": {
-					"name": "Stage"
+					"name": "Stage",
+					"plural": "Stages"
 				},
 				"weight": "Weight"
 			},
