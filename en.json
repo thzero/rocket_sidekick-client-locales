@@ -653,6 +653,9 @@
 		}
 	},
 	"messages": {
+		"altimeters": {
+			"delete_confirm": "You are sure you want to delete this altimter?"
+		},
 		"checklists": {
 			"delete_confirm": "You are sure you want to delete this checklist?",
 			"start_confirm": "Ready to start the checklist?",
@@ -673,6 +676,9 @@
 		"success": "Action was successful",
 		"processed": "Processed",
 		"processing": "Processing",
+		"recovery": {
+			"delete_confirm": "You are sure you want to delete this recovery device?"
+		},
 		"reset": "Reset",
 		"rockets": {
 			"delete_confirm": "You are sure you want to delete this rocket?",
@@ -691,6 +697,9 @@
 				"selected": "Selected Motor",
 				"unselected": "Unable to select the motor, try again."
 			}
+		},
+		"trackers": {
+			"delete_confirm": "You are sure you want to delete this tracker?"
 		}
 	},
 	"mobileApp": {
