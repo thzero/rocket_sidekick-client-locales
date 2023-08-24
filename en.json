@@ -219,6 +219,7 @@
 					"minor": "Diameter (Minor)"
 				},
 				"length": "Length",
+				"level": "Levels",
 				"stage": {
 					"name": "Stage",
 					"plural": "Stages"
@@ -905,11 +906,13 @@
 				"isPublic": "Public"
 			},
 			"rockets": {
-				"low": "Low",
-				"mid": "Mid",
-				"highone": "Level 1",
-				"hightwo": "Level 2",
-				"highthree": "Level 3"
+				"levels": {
+					"low": "Low",
+					"mid": "Mid",
+					"highone": "Level 1",
+					"hightwo": "Level 2",
+					"highthree": "Level 3"
+				}
 			},
 			"tools": {
 				"ejectionCharges": {
@@ -1085,6 +1088,10 @@
 				"launches": "Flight Logs",
 				"specifications": "Specifications",
 				"videos": "Video Albums"
+			},
+			"rocketSetups": {
+				"title": "Rocket Setups",
+				"launches": "Flight Logs"
 			},
 			"tools": {
 				"flightInfo": "Flight Info",
