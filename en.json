@@ -362,7 +362,7 @@
 					"coeffDrag": "Coeff. of Drag",
 					"desiredVelocity": "Desired Velocity",
 					"diameter": "Parachute Diameter",
-					"diameterMeasurementUnits": "Diameter Meas. Units",
+					"diameterMeasurementUnits": "Diameter Units",
 					"mass": "Mass"
 				},
 				"thrust2Weight": {
@@ -410,7 +410,7 @@
 		"listing": "Listing",
 		"minAbbr": "Min.",
 		"maxAbbr": "Max.",
-		"measurementUnits": "Meas. Units",
+		"measurementUnits": "Units",
 		"name": "Name",
 		"news": {
 			"article": "Article",
@@ -424,7 +424,7 @@
 		"roles": "Roles",
 		"settings": {
 			"measurementUnits": {
-				"title": "Meas. Units",
+				"title": "Units",
 				"acceleration": "Acceleration",
 				"area": "Area",
 				"density": "Density",
@@ -1118,7 +1118,7 @@
 		"help": "Help",
 		"home": "Home",
 		"issues": "Issues",
-		"measurementUnits": "Meas. Units",
+		"measurementUnits": "Units",
 		"new": "New",
 		"newType": "New {type}",
 		"news": "News",
