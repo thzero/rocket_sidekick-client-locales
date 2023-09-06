@@ -181,10 +181,12 @@
 					"abbr": "Min."
 				},
 				"motor": {
-					"name": "Motor"
+					"name": "Motor",
+					"plural": "Motors"
 				},
 				"motorCase": {
-					"name": "Motor Case"
+					"name": "Motor Case",
+					"plural": "Motor Cases"
 				},
 				"parachute": {
 					"name": "Parachute",
@@ -216,7 +218,8 @@
 				"diameter": {
 					"name": "Diameter",
 					"major": "Diameter",
-					"minor": "Diameter (Minor)"
+					"minor": "Diameter (Minor)",
+					"motor": "Motor Diameter"
 				},
 				"length": "Length",
 				"level": "Levels",
