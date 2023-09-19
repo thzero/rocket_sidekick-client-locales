@@ -365,11 +365,16 @@
 				},
 				"parachuteSizing": {
 					"airDensity": "Air Density",
+					"airDensity_hint": "Aat less than 1km above sea level.",
 					"coeffDrag": "Coeff. of Drag",
+					"coeffDrag_hint": "0.75 for a parasheet, 1.5 for a dome-shaped chute.",
 					"desiredVelocity": "Desired Velocity",
+					"desiredVelocity_hint": "Main less than 20 f/s; drogue less than 100 f/s.",
 					"diameter": "Parachute Diameter",
 					"diameterMeasurementUnits": "Diameter Units",
-					"mass": "Mass"
+					"mass": "Mass",
+					"spillHole": "Spill Hole %",
+					"spillHole_hint": "20% of diameter"
 				},
 				"thrust2Weight": {
 					"mass": "Rocket Weight",
@@ -503,7 +508,7 @@
 			},
 			"density": {
 				"lbmft3": "Pound-mass Per Cubic Foot",
-				"lbmft3Abbr": "lbm/ft3"
+				"lbmft3Abbr": "lbm/ft^3"
 			},
 			"distance": {
 				"ft": "Feet",
