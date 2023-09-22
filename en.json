@@ -92,6 +92,11 @@
 					"finWidth": "Greater than 50% Motor Tube Outside Diameter",
 					"motorTubeBodyTube": "Greater than Body Tube ID"
 				},
+				"parachuteSizing": {
+					"spillHole": "Either Spill Hole Diameter or %.",
+					"spillHoleDiameter": "Spill Hole % set.",
+					"spillHolePct": "Spill Hole Diameter set."
+				},
 				"thrust2Weight": {
 					"thrustAverageInitial": "Less than or equal Thrust Initial",
 					"thrustAveragePeak": "Greater than or equal Thrust Peak",
@@ -378,6 +383,7 @@
 					"diameter": "Parachute Diameter",
 					"diameterMeasurementUnits": "Diameter Units",
 					"mass": "Mass",
+					"output": "Output",
 					"parachuteShape": "Parachute Shape",
 					"parachuteShape_hint": "",
 					"shape": {
@@ -389,10 +395,12 @@
 						"diameter": "Spill Hole Diameter",
 						"diameter_hint": "",
 						"pct": "Spill Hole %",
-						"pCt_hint": "20% of diameter",
+						"pCt_hint": "",
 						"shape": "Spill Hole Shape",
 						"shape_hint": ""
-					}
+					},
+					"velocity": "Velocity",
+					"velocityMeasurementUnits": "Velocity Units"
 				},
 				"thrust2Weight": {
 					"mass": "Rocket Weight",
