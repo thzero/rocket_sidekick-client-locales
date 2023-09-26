@@ -355,6 +355,7 @@
 				"foam": {
 					"bodyTubeID": "Body Tube ID",
 					"bodyTubeID_hint": "Inside diameter of the body tube.",
+					"inputUnits": "Length Fluid Units",
 					"motorTubeOD": "Motor Tube OD",
 					"motorTubeOD_hint": "Outside diameter of the motor tube.",
 					"finRootLength": "Fin Root Length",
@@ -365,6 +366,7 @@
 					"finWidth_hint": "Width of the fin.",
 					"numberFins": "Number of Fins",
 					"numberFins_hint": "",
+					"outputUnits": "Output Fluid Units",
 					"totalVolume": "Total Volume",
 					"totalVolume_hint": "Total volume of left over space in the fin can."
 				},
