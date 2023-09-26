@@ -355,7 +355,7 @@
 				"foam": {
 					"bodyTubeID": "Body Tube ID",
 					"bodyTubeID_hint": "Inside diameter of the body tube.",
-					"inputUnits": "Length Fluid Units",
+					"inputUnits": "Length Units",
 					"motorTubeOD": "Motor Tube OD",
 					"motorTubeOD_hint": "Outside diameter of the motor tube.",
 					"finRootLength": "Fin Root Length",
