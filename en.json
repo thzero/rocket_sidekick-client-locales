@@ -467,12 +467,14 @@
 				"acceleration": "Acceleration",
 				"area": "Area",
 				"density": "Density",
+				"diameter": "Diameter",
 				"distance": "Distance",
 				"fluid": "Fluid",
 				"length": "Length",
 				"velocity": "Velocity",
 				"volume": "Volume",
-				"weight": "Weight"
+				"weight": "Weight",
+				"width": "Width"
 			}
 		},
 		"sorting": {
