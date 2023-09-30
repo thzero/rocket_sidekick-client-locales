@@ -138,6 +138,18 @@
 		"csv": "CSV"
 	},
 	"forms": {
+		"address": {
+			"city": "City",
+			"country": {
+				"title": "Country",
+				"plural": "Countries"
+			},
+			"postalCode": "Postal Code",
+			"stateProvince": {
+				"title": "State/Province" ,
+				"plural": "States/Provinces" 
+			}
+		},
 		"content": {
 			"checklists": {
 				"name": "Checklist",
