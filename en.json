@@ -685,6 +685,7 @@
 			"chuteReleases": "Chute Releases",
 			"deploymentBags": "Deployment Bags",
 			"launches": "Launches",
+			"locations": "Locations",
 			"motor": "Motors",
 			"motorCases": "Motor Cases",
 			"parachutes": "Parachutes",
@@ -1072,6 +1073,12 @@
 				"highPower": "High Power Rocketry",
 				"safetyRules": "Safety Rules",
 				"shearPins": "Shear Pins"
+			},
+			"launches": {
+				"title": "Launches"
+			},
+			"locations": {
+				"title": "Locations"
 			},
 			"links": {
 				"title": "Links",
