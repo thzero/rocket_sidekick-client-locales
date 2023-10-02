@@ -138,6 +138,18 @@
 		"csv": "CSV"
 	},
 	"forms": {
+		"address": {
+			"city": "City",
+			"country": {
+				"title": "Country",
+				"plural": "Countries"
+			},
+			"postalCode": "Postal Code",
+			"stateProvince": {
+				"title": "State/Province" ,
+				"plural": "States/Provinces" 
+			}
+		},
 		"content": {
 			"checklists": {
 				"name": "Checklist",
@@ -146,11 +158,26 @@
 				"shared": "Shared",
 				"yours": "Yours"
 			},
+			"locations": {
+				"name": "Location",
+				"plural": "Locations",
+				"experimental": "Experimental",
+				"iterations": {
+					"name": "Iteration",
+					"plural": "Iterations"
+				},
+				"number": "Number",
+				"year": "Year"
+			},
 			"manufacturer": {
 				"name": "Manufacturer",
 				"abbr": "Manu.",
 				"plural": "Manufacturers",
 				"plural_hint": "Max. two selections"
+			},
+			"organizations": {
+				"name": "Organization",
+				"plural": "Organizations"
 			},
 			"parts": {
 				"all": "All",
@@ -685,6 +712,7 @@
 			"chuteReleases": "Chute Releases",
 			"deploymentBags": "Deployment Bags",
 			"launches": "Launches",
+			"locations": "Locations",
 			"motor": "Motors",
 			"motorCases": "Motor Cases",
 			"parachutes": "Parachutes",
@@ -949,9 +977,19 @@
 					"desc": "A nice article about simulators for model rocketry by ThrustCurve.org."
 				}
 			},
+			"organizations": {
+				"name": "Organization",
+				"plural": "Organizations",
+				"NAR": "National Association of Rocketry",
+				"TRP": "Tripoli Rocketry Association ",
+				"CAR": "Canadian Association of Rocketry",
+				"AUS": "Australian Rocketry Association",
+				"UK": "United Kingdom Rocketry Association"
+			},
 			"parts": {
 				"isPublic": "Public"
 			},
+			"public": "Shared",
 			"rockets": {
 				"levels": {
 					"low": "Low",
@@ -1072,6 +1110,12 @@
 				"highPower": "High Power Rocketry",
 				"safetyRules": "Safety Rules",
 				"shearPins": "Shear Pins"
+			},
+			"launches": {
+				"title": "Launches"
+			},
+			"locations": {
+				"title": "Locations"
 			},
 			"links": {
 				"title": "Links",
