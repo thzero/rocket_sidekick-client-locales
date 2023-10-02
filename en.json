@@ -158,11 +158,26 @@
 				"shared": "Shared",
 				"yours": "Yours"
 			},
+			"locations": {
+				"name": "Location",
+				"plural": "Locations",
+				"experimental": "Experimental",
+				"iterations": {
+					"name": "Iteration",
+					"plural": "Iterations"
+				},
+				"number": "Number",
+				"year": "Year"
+			},
 			"manufacturer": {
 				"name": "Manufacturer",
 				"abbr": "Manu.",
 				"plural": "Manufacturers",
 				"plural_hint": "Max. two selections"
+			},
+			"organizations": {
+				"name": "Organization",
+				"plural": "Organizations"
 			},
 			"parts": {
 				"all": "All",
@@ -961,6 +976,15 @@
 				"simulators": {
 					"desc": "A nice article about simulators for model rocketry by ThrustCurve.org."
 				}
+			},
+			"organizations": {
+				"name": "Organization",
+				"plural": "Organizations",
+				"NAR": "National Association of Rocketry",
+				"TRP": "Tripoli Rocketry Association ",
+				"CAR": "Canadian Association of Rocketry",
+				"AUS": "Australian Rocketry Association",
+				"UK": "United Kingdom Rocketry Association"
 			},
 			"parts": {
 				"isPublic": "Public"
