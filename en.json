@@ -159,6 +159,14 @@
 				"shared": "Shared",
 				"yours": "Yours"
 			},
+			"launches": {
+				"name": "Launch",
+				"plural": "Launches",
+				"failureReasons": "Failure Reasons",
+				"notes": "Notes",
+				"notes_hint": "Use {link} for complex editing.",
+				"success": "Success"
+			},
 			"locations": {
 				"name": "Location",
 				"plural": "Locations",
@@ -971,6 +979,13 @@
 					"additional1b": ").  See the documentation on the repo.",
 					"description": "The following is the selection of information and tools currently available.",
 					"mobile": "Not all the tools are available on the mobile application; it's focus is information and tools that are useful on the field at rocket launches. Checkout [url] website for more tools and information!"
+				}
+			},
+			"launches": {
+				"failureReasons": {
+					"cato": "Cato", 
+					"deployment": "Deployment", 
+					"lost": "Lost"
 				}
 			},
 			"links": {
