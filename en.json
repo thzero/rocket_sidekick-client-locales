@@ -192,7 +192,14 @@
 				"all": "All",
 				"altimeter": {
 					"name": "Altimeter",
-					"plural": "Altimeters"
+					"plural": "Altimeters",
+					"altitude": {
+						"main": "Main Deploy Altitude"
+					},
+					"delay": {
+						"apogee": "Apogee Delay",
+						"motor": "Motor Delay"
+					}
 				},
 				"chuteProtector": {
 					"name": "Chute Protector",
@@ -271,7 +278,10 @@
 					"name": "Stage",
 					"plural": "Stages"
 				},
-				"weight": "Weight"
+				"weight": {
+					"name": "Weight",
+					"nose": "Nose"
+				}
 			},
 			"tools": {
 				"flightInfo": {
@@ -506,6 +516,7 @@
 				"diameter": "Diameter",
 				"distance": "Distance",
 				"fluid": "Fluid",
+				"height": "Height",
 				"length": "Length",
 				"velocity": "Velocity",
 				"volume": "Volume",
@@ -528,6 +539,11 @@
 		"welcome": "Hello {msg}!"
 	},
 	"measurements":{
+		"time": {
+			"seconds": "Seconds",
+			"secondsAbbrev": "sec",
+			"secondsShort": "s"
+		},
 		"english": {
 			"acceleration":{
 				"abbr":"ft/s^s"
@@ -982,10 +998,15 @@
 				}
 			},
 			"launches": {
+				"success": {
+					"success": "Successful",
+					"failed": "Failure"
+				},
 				"failureReasons": {
 					"cato": "Cato", 
 					"deployment": "Deployment", 
-					"lost": "Lost"
+					"lost": "Lost",
+					"rud": "Rapid Unscheduled Disassembly"
 				}
 			},
 			"links": {
@@ -1083,6 +1104,7 @@
 			"density": "Density",
 			"distance": "Distance",
 			"fluid": "Fluid",
+			"height": "Height",
 			"length": "Length",
 			"velocity": "Velocity",
 			"volume": "Volume",
