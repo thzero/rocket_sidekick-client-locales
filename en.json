@@ -209,7 +209,8 @@
 				},
 				"chuteRelease": {
 					"name": "Chute Release",
-					"plural": "Chute Releases"
+					"plural": "Chute Releases",
+					"altitude": "Release Altitude"
 				},
 				"cd": "Cd",
 				"deploymentBag": {
@@ -243,6 +244,10 @@
 					"plural": "Parachutes",
 					"loadMax": "Load Max.",
 					"loadMin": "Load Min.",
+					"reefed": {
+						"title": "Reefed",
+						"length": "Reefed Length"
+					},
 					"thinMill": "Thin Mill"
 				},
 				"public": "Public",
