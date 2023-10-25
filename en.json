@@ -165,6 +165,27 @@
 				"failureReasons": "Failure Reasons",
 				"notes": "Notes",
 				"notes_hint": "Use {link} for complex editing.",
+				"results": {
+					"title": "Results",
+					"acceleration": {
+						"max": "Max. Acceleration"
+					},
+					"altitude": {
+						"drogue": "Altitude (Drogue Deploy)",
+						"main": "Altitude (Main Deploy)",
+						"max": "Max. Altitude"
+					},
+					"coords": {
+						"launch": "Launch",
+						"lat": "Latitude",
+						"long": "Longitude",
+						"recovery": "Ground Hit"
+					},
+					"velocity": {
+						"max": "Max. Velocity",
+						"recovery": "Ground Hit Velocity"
+					}
+				},
 				"success": "Success"
 			},
 			"locations": {
@@ -277,6 +298,7 @@
 					"minor": "Diameter (Minor)",
 					"motor": "Motor Diameter"
 				},
+				"from": "From Rocket",
 				"length": "Length",
 				"level": "Levels",
 				"stage": {
@@ -516,6 +538,7 @@
 			"measurementUnits": {
 				"title": "Units",
 				"acceleration": "Acceleration",
+				"altitude": "Altitude",
 				"area": "Area",
 				"density": "Density",
 				"diameter": "Diameter",
@@ -1003,15 +1026,18 @@
 				}
 			},
 			"launches": {
-				"success": {
-					"success": "Successful",
-					"failed": "Failure"
-				},
-				"failureReasons": {
-					"cato": "Cato", 
-					"deployment": "Deployment", 
-					"lost": "Lost",
-					"rud": "Rapid Unscheduled Disassembly"
+				"reasons": {
+					"failure": {
+						"cato": "Cato", 
+						"deployment": "Deployment", 
+						"lost": "Lost",
+						"rud": "Rapid Unscheduled Disassembly"
+					},
+					"success": {
+						"delayed": "Delayed",
+						"success": "Successful",
+						"failed": "Failure"
+					}
 				}
 			},
 			"links": {
