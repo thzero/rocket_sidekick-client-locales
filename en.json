@@ -191,11 +191,13 @@
 			"locations": {
 				"name": "Location",
 				"plural": "Locations",
+				"address": "Address",
 				"experimental": "Experimental",
 				"iterations": {
 					"name": "Iteration",
 					"plural": "Iterations"
 				},
+				"link": "Launch Url",
 				"number": "Number",
 				"year": "Year"
 			},
