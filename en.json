@@ -445,6 +445,9 @@
 					"totalVolume": "Total Volume",
 					"totalVolume_hint": "Total volume of left over space in the fin can."
 				},
+				"instructions": {
+					"title": "Instructions"
+				},
 				"parachuteSizing": {
 					"airDensity": "Air Density",
 					"airDensity_hint": "Aat less than 1km above sea level.",
