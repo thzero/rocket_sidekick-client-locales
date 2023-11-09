@@ -621,6 +621,12 @@
 				"ft2": "Feet Squared",
 				"ft2Abbr": "ft^2"
 			},
+			"altitude": {
+				"ft": "Feet",
+				"ftAbbr": "ft",
+				"mi": "Miles",
+				"miAbbr": "mi"
+			},
 			"density": {
 				"lbmft3": "Pound-mass Per Cubic Foot",
 				"lbmft3Abbr": "lbm/ft^3"
@@ -673,6 +679,12 @@
 				"m2Abbr": "m^2",
 				"mm2": "Millimeters Squared",
 				"mm2Abbr": "mm^2"
+			},
+			"altitude": {
+				"m": "Meters",
+				"mAbbr": "m",
+				"km": "Kilometers",
+				"kmAbbr": "km"
 			},
 			"density": {
 				"kgm3": "Kilogram Per Cubic Meter",
