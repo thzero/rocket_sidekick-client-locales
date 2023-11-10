@@ -908,6 +908,7 @@
 	},
 	"questions": {
 		"areYouSure": "Are you sure?",
+		"areYouSureNonRecoverable": "Are you sure?",
 		"formDirty": {
 			"cancel": "You made changes, are you sure you wish to leave?",
 			"clear": "You made changes, are you sure you wish to reset?",
