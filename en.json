@@ -162,6 +162,7 @@
 			"launches": {
 				"name": "Launch",
 				"plural": "Launches",
+				"album": "Photo Album Url",
 				"failureReasons": "Failure Reasons",
 				"notes": "Notes",
 				"notes_hint": "Use {link} for complex editing.",
@@ -186,7 +187,8 @@
 						"recovery": "Ground Hit Velocity"
 					}
 				},
-				"success": "Success"
+				"success": "Success",
+				"video": "Video Url"
 			},
 			"locations": {
 				"name": "Location",
@@ -289,6 +291,7 @@
 			"rockets": {
 				"name": "Rocket",
 				"type": "Rocket Type",
+				"albums": "Photo Album Urls",
 				"cg": "Center of Gravity",
 				"cgFrom": "Direction",
 				"count": "Motor Count",
@@ -307,6 +310,7 @@
 					"name": "Stage",
 					"plural": "Stages"
 				},
+				"videos": "Video Urls",
 				"weight": {
 					"name": "Weight",
 					"nose": "Nose"
@@ -1265,7 +1269,7 @@
 				"albums": "Photo Albums",
 				"launches": "Flight Logs",
 				"specifications": "Specifications",
-				"videos": "Video Albums"
+				"videos": "Videos"
 			},
 			"rocketSetups": {
 				"title": "Rocket Setups",
