@@ -818,6 +818,9 @@
 		"error": "An error occured, please try again.",
 		"failed": "Action failed",
 		"loading": "Loading...",
+		"locations": {
+			"delete_confirm": "Are sure you want to delete this location?"
+		},
 		"success": "Action was successful",
 		"processed": "Processed",
 		"processing": "Processing",
