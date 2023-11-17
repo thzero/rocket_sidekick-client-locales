@@ -245,6 +245,7 @@
 				},
 				"diameter": "Diameter",
 				"length": "Length",
+				"manufacturer": "Manufacturer",
 				"manufacturerId": "Manufacturer Id",
 				"max": {
 					"name": "Maxium",
@@ -294,7 +295,6 @@
 				"albums": "Photo Album Urls",
 				"cg": "Center of Gravity",
 				"cgFrom": "Direction",
-				"count": "Motor Count",
 				"cp": "Center of Pressure",
 				"cpFrom": "Direction",
 				"diameter": {
@@ -306,6 +306,11 @@
 				"from": "From Rocket",
 				"length": "Length",
 				"level": "Levels",
+				"motor": {
+					"name": "Motor",
+					"count": "Motor Count",
+					"diameter": "Motor Diameter"
+				},
 				"stage": {
 					"name": "Stage",
 					"plural": "Stages"
@@ -1175,10 +1180,13 @@
 		"rockets": {
 			"buildLogUrl": "Build Log",
 			"cg": "CG",
-			"cp": "CP",
-			"diameterMajor": "Diameter",
+			"cp": "Total CP",
+			"diameterMajor": "Total Diameter",
+			"editing": "Editing is currently only available via the mobile application.",
+			"length": "Total Length",
 			"manufacturer": "Manufacturer",
-			"editing": "Editing is currently only available via the mobile application."
+			"stages": "Stages",
+			"weight": "Total Weight"
 		},
 		"save": "Save",
 		"share": "Share",
