@@ -560,6 +560,7 @@
 				"fluid": "Fluid",
 				"height": "Height",
 				"length": "Length",
+				"temperature": "Temperature",
 				"velocity": "Velocity",
 				"volume": "Volume",
 				"weight": "Weight",
@@ -587,33 +588,41 @@
 			"secondsShort": "s"
 		},
 		"english": {
-			"acceleration":{
-				"abbr":"ft/s^s"
+			"acceleration": {
+				"abbr": "ft/s^s"
 			},
-			"altitude":{
-				"abbr":"ft",
-				"name":"Feet"
+			"altitude": {
+				"abbr" : "ft",
+				"name" : "Feet"
 			},
-			"time":{
-				"abbr":"s"
+			"temperature": {
+				"abbr" : "f",
+				"name" : "Farhenheit"
 			},
-			"velocity":{
-				"abbr":"ft/s"
+			"time": {
+				"abbr" : "s"
+			},
+			"velocity": {
+				"abbr" : "ft/s"
 			}
 		},
 		"metric":{
 			"acceleration":{
-				"abbr":"m/s^s"
+				"abbr" : "m/s^s"
 			},
 			"altitude":{
-				"abbr":"m",
-				"name":"Meters"
+				"abbr" : "m",
+				"name" : "Meters"
+			},
+			"temperature": {
+				"abbr" : "c",
+				"name" : "Celcius"
 			},
 			"time":{
-				"abbr":"s"
+				"abbr" : "s"
 			},
 			"velocity":{
-				"abbr":"m/s"
+				"abbr" : "m/s"
 			}
 		}
 	},
@@ -655,6 +664,10 @@
 				"inAbbr": "in",
 				"ft": "Feet",
 				"ftAbbr": "ft"
+			},
+			"temperature": {
+				"f": "Farhenheit",
+				"fAbbr": "F"
 			},
 			"velocity": {
 				"fts": "Feet Per Second",
@@ -718,6 +731,10 @@
 				"mAbbr": "m",
 				"mm": "Millimeters",
 				"mmAbbr": "mm"
+			},
+			"temperature": {
+				"c": "Celcius",
+				"cAbbr": "C"
 			},
 			"velocity": {
 				"ms": "Meters Per Second",
@@ -1169,6 +1186,7 @@
 			"fluid": "Fluid",
 			"height": "Height",
 			"length": "Length",
+			"temperature": "Temperature",
 			"velocity": "Velocity",
 			"volume": "Volume",
 			"weight": "Weight"
