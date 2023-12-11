@@ -164,6 +164,9 @@
 				"plural": "Launches",
 				"album": "Photo Album Url",
 				"failureReasons": "Failure Reasons",
+				"location": {
+					"title": "Location"
+				},
 				"notes": "Notes",
 				"notes_hint": "Use {link} for complex editing.",
 				"results": {
@@ -186,6 +189,11 @@
 						"max": "Max. Velocity",
 						"recovery": "Ground Hit Velocity"
 					}
+				},
+				"weather": {
+					"title": "Weather",
+					"temperature": "Temperature",
+					"windspeed": "Wind Speed"
 				},
 				"success": "Success",
 				"video": "Video Url"
@@ -1085,6 +1093,14 @@
 						"success": "Successful",
 						"failed": "Failure"
 					}
+				},
+				"weather": {
+					"clear": "Clear",
+					"cloudy": "Cloudy",
+					"cloudyPartial": "Cloudy, partially",
+					"overcast": "Overcast",
+					"raining": "Raining",
+					"snowing": "Snowing"
 				}
 			},
 			"links": {
