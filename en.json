@@ -1081,6 +1081,7 @@
 				}
 			},
 			"launches": {
+				"launch": "Launch",
 				"reasons": {
 					"failure": {
 						"cato": "Cato", 
@@ -1094,6 +1095,7 @@
 						"failed": "Failure"
 					}
 				},
+				"recovery": "Recovery",
 				"weather": {
 					"clear": "Clear",
 					"cloudy": "Cloudy",
