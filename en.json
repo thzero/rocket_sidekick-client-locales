@@ -1155,14 +1155,14 @@
 				"parachuteSizing": {
 					"desc": "A tool to determine an estimated size of parachute based on mass, desired velocity, Cd of the parachute as well as air density.",
 					"calculated": "Calculated",
-					"info": "The tool's calculations are based on the on equations from <a href=\"{url}\" target=\"_blank\">{title}</a>."
+					"info": "The tool's calculations are based on the on equations from {link}."
 				},
 				"staticPortHoles": {
 					"desc": ""
 				},
 				"thrust2Weight": {
 					"title": "Thrust to Weight",
-					"desc": "Utility to determine thrust to weight ratios for rockets and different motors, either manually entered or from ThrustCurve.org.",
+					"desc": "Utility to determine thrust to weight ratios for rockets and different motors, either manually entered or from {thrustCurve}.",
 					"motorData1": "Motor One",
 					"motorData2": "Motor Two",
 					"motorData3": "Motor Three",
@@ -1176,7 +1176,7 @@
 					"results": "Results",
 					"thrust": "Thrust (Newtons)",
 					"to": " : 1",
-					"guidance": "Initial thrust is more important during the initial boost phase off the launch pad.  Average thrust is the average of the thrust across the burn timespan.  The peak thrust does not always occur during launch or initial boost phase; consult the thrust curves at ",
+					"guidance": "Initial thrust is more important during the initial boost phase off the launch pad.  Average thrust is the average of the thrust across the burn timespan.  The peak thrust does not always occur during launch or initial boost phase; consult the thrust curves at {thrustCurve}.",
 					"guidance2": "When using a ThrustCuve motor profile, the initial thrust is a approximate value and is determined from the sample data included with the motor profile.  The largest thrust (N) sample that falls below the Max. Launch Rod Time specified is used.  If there is a discrepancy between the thrust curve data during this time period and the max thrust, then the thrust curve data is used."
 				},
 				"weathercocking": {
