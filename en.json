@@ -172,12 +172,12 @@
 				"results": {
 					"title": "Results",
 					"acceleration": {
-						"max": "Max. Acceleration"
+						"max": "Acceleration (Max.)"
 					},
 					"altitude": {
 						"drogue": "Altitude (Drogue Deploy)",
 						"main": "Altitude (Main Deploy)",
-						"max": "Max. Altitude"
+						"max": "Altitude (Max.)"
 					},
 					"coords": {
 						"launch": "Launch",
@@ -186,8 +186,8 @@
 						"recovery": "Ground Hit"
 					},
 					"velocity": {
-						"max": "Max. Velocity",
-						"recovery": "Ground Hit Velocity"
+						"max": "Velocity (Max.)",
+						"recovery": "Velocity (Ground Hit)"
 					}
 				},
 				"weather": {
