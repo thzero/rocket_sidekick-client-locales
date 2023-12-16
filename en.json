@@ -21,6 +21,7 @@
 		"expandAll": "Expand",
 		"export": "Export",
 		"filter": "Filter",
+		"link": "Link",
 		"ok": "Ok",
 		"process": "Process",
 		"reset": "Reset",
@@ -189,6 +190,12 @@
 						"max": "Velocity (Max.)",
 						"recovery": "Velocity (Ground Hit)"
 					}
+				},
+				"rocket": {
+					"title": "Rocket"
+				},
+				"rocketSetup": {
+					"title": "Rocket Setup"
 				},
 				"weather": {
 					"title": "Weather",
@@ -1110,6 +1117,10 @@
 					"desc": "A nice article about simulators for model rocketry by ThrustCurve.org."
 				}
 			},
+			"locations": {
+				"title": "Location",
+				"launchSite": "Launch Site"
+			},
 			"organizations": {
 				"name": "Organization",
 				"plural": "Organizations",
@@ -1132,7 +1143,8 @@
 					"hightwo": "Level 2",
 					"highthree": "Level 3"
 				},
-				"motors": "Motors"
+				"motors": "Motors",
+				"with": "mount with"
 			},
 			"tools": {
 				"ejectionCharges": {
