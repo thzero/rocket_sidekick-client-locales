@@ -195,7 +195,7 @@
 					"title": "Rocket"
 				},
 				"rocketSetup": {
-					"title": "Rocket Setup"
+					"title": "Setup"
 				},
 				"weather": {
 					"title": "Weather",
@@ -854,11 +854,18 @@
 		"dev": "DEV",
 		"error": "An error occured, please try again.",
 		"failed": "Action failed",
+		"launches": {
+			"rocket": {
+				"replace_confirm": "Are you sure you wish to replace this rocket from the launch?"
+			},
+			"rocketSetup": {
+				"replace_confirm": "Are you sure you wish to replace this rocket setup from the launch?"
+			}
+		},
 		"loading": "Loading...",
 		"locations": {
 			"delete_confirm": "Are sure you want to delete this location?"
 		},
-		"success": "Action was successful",
 		"processed": "Processed",
 		"processing": "Processing",
 		"recovery": {
@@ -881,6 +888,7 @@
 		},
 		"saved": "Saved",
 		"saved_failed": "Save failed, try again",
+		"success": "Action was successful",
 		"thrust2Weight": {
 			"offline": "You are offline, only motors from previous online searches will be available.",
 			"motor": {
