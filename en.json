@@ -129,6 +129,7 @@
 			"unableToConvert": "Unable to convert the CSV data."
 		},
 		"quotaExceeded": "You have reached your quota of {quota} \\'{quotaType}\\'.",
+		"security": "Invalid security rights.",
 		"type": "Type is required."
 	},
 	"extracts": {
