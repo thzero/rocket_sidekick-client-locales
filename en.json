@@ -210,6 +210,7 @@
 				"name": "Location",
 				"plural": "Locations",
 				"address": "Address",
+				"dates": "Dates",
 				"experimental": "Experimental",
 				"iterations": {
 					"name": "Iteration",
