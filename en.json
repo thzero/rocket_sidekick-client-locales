@@ -1260,6 +1260,10 @@
 		"about": "About",
 		"admin": "Admin",
 		"application": "Rocket Sidekick",
+		"contact": {
+			"contributing": "{email} Contributing",
+			"inquiry": "{email} Inquiry"
+		},
 		"content": {
 			"name": "Content",
 			"checklists": {
