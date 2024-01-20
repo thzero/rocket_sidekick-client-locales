@@ -971,7 +971,8 @@
 	},
 	"strings": {
 		"about": {
-			"text1": "This site is supported and maintained by thZero Labs as a resource for the model rocketry community.",
+			"text1a": "This site is supported and maintained by ",
+			"text1b": "as a resource for the model rocketry community.",
 			"text2": "Any comments, questions or issues then please feel free to reach out to",
 			"contributing": {
 				"title": "Contributing",
@@ -1213,7 +1214,7 @@
 		},
 		"copyright": "Copyright",
 		"copyright2": "Copyright © ",
-		"copyright3": "2022-2023. All rights under copyright reserved.",
+		"copyright3": "2022-2024. All rights under copyright reserved.",
 		"copyToClipboard": "Copied to the clipboard!",
 		"delete": "Delete",
 		"edit": "Edit",
