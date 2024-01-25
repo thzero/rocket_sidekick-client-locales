@@ -4,7 +4,7 @@
 This site does not send emails.
 
 ## Ads
-At this time, this site does not show ads.
+This site does not show ads.
 
 ## Cookies
 Limited cookies for Google Analytics only.
