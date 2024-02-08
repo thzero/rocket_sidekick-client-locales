@@ -158,6 +158,9 @@
 				"plural": "States/Provinces" 
 			}
 		},
+		"checklists": {
+			"default": "Default Checklist"
+		},
 		"content": {
 			"checklists": {
 				"name": "Checklist",
@@ -537,10 +540,8 @@
 				}
 			}
 		},
-		"checklists": {
-			"default": "Default Checklist"
-		},
 		"description": "Description",
+		"date": "Date",
 		"external": {
 			"motorSearch": {
 				"diameter": "Diameter",
