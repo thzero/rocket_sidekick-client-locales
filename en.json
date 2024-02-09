@@ -867,6 +867,7 @@
 		"error": "An error occured, please try again.",
 		"failed": "Action failed",
 		"launches": {
+			"delete_confirm": "Are sure you want to delete this launch?",
 			"rocket": {
 				"replace_confirm": "Are you sure you wish to replace this rocket from the launch?"
 			},
