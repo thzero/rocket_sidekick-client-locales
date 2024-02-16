@@ -169,6 +169,7 @@
 				"default": "Default",
 				"inProgress": "In Progress",
 				"shared": "Shared",
+				"section": "Section",
 				"yours": "Yours"
 			},
 			"launches": {
@@ -1398,7 +1399,20 @@
 	"tooltips": {
 		"clear": "Clear filters",
 		"extract": "Extract list",
-		"share": "Share the list"
+		"share": "Share the list",
+		"content": {
+			"checklists": {
+				"steps": {
+					"add": "Add Step",
+					"delete": "Delete Step",
+					"edit": "Edit Step",
+					"moveDown": "Move Step Down",
+					"moveIn": "Move Step into Section",
+					"moveOut": "Move Step out of a Section",
+					"moveUp": "Move Step Up"
+				}
+			}
+		}
 	},
 	"users": {
 		"actions": "Actions",
