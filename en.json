@@ -93,6 +93,9 @@
 			}
 		},
 		"content": {
+			"inventory": {
+				"exists": "The part already exists in the inventory."
+			},
 			"tools": {
 				"foam": {
 					"finTabFinRoot": "Greater than the Fin Root Length",
