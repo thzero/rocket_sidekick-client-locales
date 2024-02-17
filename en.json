@@ -833,6 +833,7 @@
 			"chuteProtectors": "Chute Protectors",
 			"chuteReleases": "Chute Releases",
 			"deploymentBags": "Deployment Bags",
+			"inventory": "Inventory",
 			"launches": "Launches",
 			"locations": "Locations",
 			"motor": "Motors",
@@ -1287,6 +1288,9 @@
 				"highPower": "High Power Rocketry",
 				"safetyRules": "Safety Rules",
 				"shearPins": "Shear Pins"
+			},
+			"inventory": {
+				"title": "Inventory"
 			},
 			"launches": {
 				"title": "Launches"
