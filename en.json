@@ -175,6 +175,9 @@
 				"section": "Section",
 				"yours": "Yours"
 			},
+			"inventory": {
+				"quantity": "Quantity"
+			},
 			"launches": {
 				"name": "Launch",
 				"plural": "Launches",
