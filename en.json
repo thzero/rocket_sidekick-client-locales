@@ -947,6 +947,7 @@
 		"motor_type_hybrid": "Hybrid",
 		"motor_type_reload": "Reload",
 		"motor_type_singleuse": "Single Use",
+		"motor_type_SU": "Single Use",
 		"motor_reset_days": "days",
 		"motor_reset_hours": "hours",
 		"motor_reset_message": "Reset the internal motor cache.",
