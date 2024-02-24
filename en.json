@@ -559,6 +559,7 @@
 				"manufacturer_hint": "Max. two selections",
 				"motor": "Motor",
 				"motor_hint": "A motor to lookup by designation",
+				"propInfo_bp": "BP",
 				"singleUse": "Single Use",
 				"sparky": "Sparky"
 			}
@@ -938,6 +939,7 @@
 		"motor_diameter_measurement": "mm",
 		"motor_designation": "Designation",
 		"motor_propInfo": "Propellant",
+		"motor_propInfo_bp": "BP",
 		"motor_sparky": "Sparky",
 		"motor_thrust_average": "Average Thrust",
 		"motor_thrust_max": "Max Thrust",
@@ -956,8 +958,7 @@
 		"motor_reset_message_time_hour_less": "less than an hour",
 		"motor_reset_message_warning": "It has been {timespan} since you last reset the cache.",
 		"motor_reset_message_warning2": "Please be courteous of ThrustCurve's resources; preference is no more than weekly.",
-		"search": "Motor Search",
-		"sparky": "Sparky"
+		"search": "Motor Search"
 	},
 	"news": {
 		"actions": "Actions",
