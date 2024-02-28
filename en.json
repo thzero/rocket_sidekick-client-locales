@@ -253,6 +253,7 @@
 				"all": "All",
 				"altimeter": {
 					"name": "Altimeter",
+					"title": "Altimeter",
 					"plural": "Altimeters",
 					"altitude": {
 						"main": "Main Deploy Altitude"
@@ -264,18 +265,21 @@
 				},
 				"chuteProtector": {
 					"name": "Chute Protector",
+					"title": "Chute Protector",
 					"plural": "Chute Protectors",
 					"dimension": "Sq. Dimension",
 					"maxTubeSize": "Max. Tube Size"
 				},
 				"chuteRelease": {
 					"name": "Chute Release",
+					"title": "Chute Release",
 					"plural": "Chute Releases",
 					"altitude": "Release Altitude"
 				},
 				"cd": "Cd",
 				"deploymentBag": {
 					"name": "Deployment Bag",
+					"title": "Deployment Bag",
 					"plural": "Deployment Bags",
 					"pilotChute": "Pilot Chute"
 				},
@@ -293,16 +297,19 @@
 				},
 				"motor": {
 					"name": "Motor",
+					"title": "Motor",
 					"delay": "Delay",
 					"plural": "Motors"
 				},
 				"motorCase": {
 					"name": "Motor Case",
+					"title": "Motor Case",
 					"name2": "Case",
 					"plural": "Motor Cases"
 				},
 				"parachute": {
 					"name": "Parachute",
+					"title": "Parachute",
 					"plural": "Parachutes",
 					"loadMax": "Load Max.",
 					"loadMin": "Load Min.",
@@ -316,12 +323,15 @@
 				"recovery": "Recovery",
 				"streamer": {
 					"name": "Streamer",
+					"title": "Streamer",
 					"plural": "Streamers"
 				},
 				"tracker": {
 					"name": "Tracker",
+					"title": "Tracker",
 					"plural": "Trackers"
 				},
+				"type": "Type",
 				"weight": "Weight",
 				"yours": "Yours"
 			},
