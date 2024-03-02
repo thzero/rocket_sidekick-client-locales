@@ -570,6 +570,8 @@
 				"manufacturer_hint": "Max. two selections",
 				"motor": "Motor",
 				"motor_hint": "A motor to lookup by designation",
+				"motorCase": "Motor Case",
+				"motorCases": "Motor Case",
 				"propInfo_bp": "BP",
 				"singleUse": "Single Use",
 				"sparky": "Sparky"
