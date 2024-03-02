@@ -284,6 +284,7 @@
 					"pilotChute": "Pilot Chute"
 				},
 				"diameter": "Diameter",
+				"dimension": "Sq. Dimension",
 				"length": "Length",
 				"manufacturer": "Manufacturer",
 				"manufacturerId": "Manufacturer Id",
