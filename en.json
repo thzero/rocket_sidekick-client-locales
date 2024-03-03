@@ -184,6 +184,7 @@
 				"name": "Launch",
 				"plural": "Launches",
 				"album": "Photo Album Url",
+				"cover": "Photo Cover Url",
 				"failureReasons": "Failure Reasons",
 				"location": {
 					"title": "Location"
