@@ -177,6 +177,7 @@
 				"yours": "Yours"
 			},
 			"inventory": {
+				"name": "Inventory",
 				"item": "Item",
 				"quantity": "Quantity",
 				"your": "Your"
