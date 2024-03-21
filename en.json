@@ -163,17 +163,20 @@
 			}
 		},
 		"checklists": {
-			"default": "Default Checklist"
+			"default": "Default Checklist",
+			"template": "Template Checklist"
 		},
 		"content": {
 			"checklists": {
 				"name": "Checklist",
 				"all": "All",
 				"completed": "Completed",
-				"default": "Default",
+				"default": "Default Templates",
+				"draft": "Draft",
 				"inProgress": "In Progress",
 				"shared": "Shared",
 				"section": "Section",
+				"template": "Your Templates",
 				"yours": "Yours"
 			},
 			"inventory": {
@@ -1055,7 +1058,8 @@
 		},
 		"content": {
 			"checklists": {
-				"isDefault": "Default"
+				"isDefault": "Default",
+				"isTemplate": "Template"
 			},
 			"info": {
 				"3dprinting": {
