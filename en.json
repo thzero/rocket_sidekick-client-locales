@@ -450,7 +450,8 @@
 					"processors": {
 						"title": "Flight Data Type",
 						"eggtimer": "Eggtimer",
-						"featherweight": "Featherweight"
+						"featherweightIOS": "Featherweight iOS",
+						"featherweightBR": "Featherweight BlueRaven"
 					},
 					"style": {
 						"title": "Flight Path Styles",
@@ -1061,6 +1062,15 @@
 				"isDefault": "Default",
 				"isTemplate": "Template"
 			},
+			"drop": {
+				"click": "click here",
+				"file1": "Release to drop file here.",
+				"file2": "Drop file here or ",
+				"file3": "to upload.",
+				"files1": "Release to drop file here.",
+				"files2": "Drop file here or ",
+				"files3": "to upload."
+			},
 			"info": {
 				"3dprinting": {
 					"additionalLinks": "Additional Links",
@@ -1197,7 +1207,7 @@
 					"desc": "Utility to create a graphical flight chart with flight information from altimeters for use in posting to websites, in videos, etc. Currently only Eggtimer output is supported."
 				},
 				"flightPath": {
-					"desc": "Utility to create a KML file based on GPS tracker output that can be imported into Google Earth.  Currently only the Featherweight GPS tracker is supported."
+					"desc": "Utility to create a KML file based on GPS tracker output that can be imported into Google Earth.  Currently only the export from the Featherweight GPS tracker iOS app, or the Featherweight Blue Raven app are supported."
 				},
 				"foam": {
 					"title": "Foam Volume for Fin Cans",
