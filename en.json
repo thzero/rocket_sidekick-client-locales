@@ -450,7 +450,7 @@
 					"processors": {
 						"title": "Flight Data Type",
 						"eggtimer": "Eggtimer",
-						"featherweightIOS": "Featherweight iOS",
+						"featherweightIFIP": "Featherweight IFIP",
 						"featherweightBR": "Featherweight BlueRaven"
 					},
 					"style": {
@@ -1207,7 +1207,7 @@
 					"desc": "Utility to create a graphical flight chart with flight information from altimeters for use in posting to websites, in videos, etc. Currently only Eggtimer output is supported."
 				},
 				"flightPath": {
-					"desc": "Utility to create a KML file based on GPS tracker output that can be imported into Google Earth.  Currently only the export from the Featherweight GPS tracker iOS app, or the Featherweight Blue Raven app are supported."
+					"desc": "Utility to create a KML file based on GPS tracker output that can be imported into Google Earth.  Currently only the export from the Featherweight GPS tracker IFIP app and the Featherweight Blue Raven app are supported."
 				},
 				"foam": {
 					"title": "Foam Volume for Fin Cans",
