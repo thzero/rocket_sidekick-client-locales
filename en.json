@@ -445,6 +445,9 @@
 					"title": "Flight Title",
 					"csv": "CSV GPS Flight Data",
 					"date": "Flight Date",
+					"filter": {
+						"distance": "Filter Distance"
+					},
 					"flightPath": "Flight Path",
 					"groundPath": "Ground Path",
 					"launch": "Launch",
