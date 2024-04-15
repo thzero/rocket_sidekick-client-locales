@@ -98,6 +98,17 @@
 				"exists": "The part already exists in the inventory."
 			},
 			"tools": {
+				"flightInfo": {
+					"nonQuantum": "Not a Quantum flight export file.",
+					"noProcessor": " No Flight Data Type selected.",
+					"withoutHeaders": "No headers detected in file."
+				},
+				"flightPath": {
+					"nonBR": "Not a Featherweight BlueRaven file.",
+					"nonIFIP": "Not a Featherweight iFIP file.",
+					"noProcessor": " No Flight Data Type selected.",
+					"withoutHeaders": "No headers detected in file."
+				},
 				"foam": {
 					"finTabFinRoot": "Greater than the Fin Root Length",
 					"finWidth": "Greater than 50% Motor Tube Outside Diameter",
