@@ -356,11 +356,16 @@
 			"rockets": {
 				"name": "Rocket",
 				"type": "Rocket Type",
-				"albums": "Photo Album Urls",
+				"albums": {
+					"name": "Name",
+					"type": "Type",
+					"url": "Url"
+				},
 				"cg": "Center of Gravity",
 				"cgFrom": "Direction",
 				"cp": "Center of Pressure",
 				"cpFrom": "Direction",
+				"cover": "Cover",
 				"diameter": {
 					"name": "Diameter",
 					"major": "Diameter",
@@ -379,7 +384,13 @@
 					"name": "Stage",
 					"plural": "Stages"
 				},
-				"videos": "Video Urls",
+				"url": "Url",
+				"videos": {
+					"name": "Name",
+					"title": "Video Link",
+					"type": "Type",
+					"url": "Url"
+				},
 				"weight": {
 					"name": "Weight",
 					"nose": "Nose"
@@ -979,6 +990,9 @@
 		},
 		"trackers": {
 			"delete_confirm": "Are sure you want to delete this tracker?"
+		},
+		"videos": {
+			"delete_confirm": "Are sure you want to delete this video link?"
 		}
 	},
 	"mobileApp": {
@@ -1402,10 +1416,16 @@
 			},
 			"rockets": {
 				"title": "Rocket Gallery",
-				"albums": "Photo Albums",
+				"albums": {
+					"plural": "Photo Albums",
+					"title": "Photo Album"
+				},
 				"launches": "Flight Logs",
 				"specifications": "Specifications",
-				"videos": "Videos"
+				"videos": {
+					"plural": "Videos",
+					"title": "Video"
+				}
 			},
 			"rocketSetups": {
 				"title": "Rocket Setups",
