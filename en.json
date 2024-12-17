@@ -372,6 +372,11 @@
 					"minor": "Diameter (Minor)",
 					"motor": "Motor Diameter"
 				},
+				"documents": {
+					"name": "Name",
+					"type": "Type",
+					"url": "Url"
+				},
 				"from": "From Rocket",
 				"length": "Length",
 				"level": "Levels",
@@ -1419,6 +1424,10 @@
 				"albums": {
 					"plural": "Photo Albums",
 					"title": "Photo Album"
+				},
+				"documents": {
+					"plural": "Documents",
+					"title": "Document"
 				},
 				"launches": "Flight Logs",
 				"specifications": "Specifications",
