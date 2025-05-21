@@ -1318,12 +1318,15 @@
 			"buildLogUrl": "Build Log",
 			"cg": "Center of Gravity",
 			"cp": "Center of Pressure",
+			"diameter": "Max. Diameter",
 			"diameterMajor": "Diameter",
 			"editing": "Editing is currently only available via the mobile application.",
-			"length": "Overall Length",
+			"length": "Length",
+			"lengthOverall": "Overall Length",
 			"manufacturer": "Manufacturer",
-			"stages": "Stages",
-			"weight": "Overall Weight"
+			"stages": "# of Stages",
+			"weight": "Weight",
+			"weightOverall": "Overall Weight"
 		},
 		"save": "Save",
 		"share": "Share",
