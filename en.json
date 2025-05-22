@@ -201,6 +201,7 @@
 				"plural": "Launches",
 				"album": "Photo Album Url",
 				"cover": "Photo Cover Url",
+				"dates": "Dates",
 				"failureReasons": "Failure Reasons",
 				"location": {
 					"title": "Location"
@@ -253,6 +254,7 @@
 					"plural": "Iterations"
 				},
 				"link": "Launch Url",
+				"nameOf": "Name",
 				"number": "Number",
 				"year": "Year"
 			},
@@ -1175,6 +1177,7 @@
 			},
 			"launches": {
 				"launch": "Launch",
+				"location": "Location",
 				"reasons": {
 					"failure": {
 						"cato": "Cato", 
