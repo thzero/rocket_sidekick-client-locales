@@ -135,6 +135,9 @@
 		"duplicateNumber": "There is already a {objectType} with the number of \\'{number}\\'.",
 		"duplicateOrder": "There is already a {objectType} with order \\'{order}\\'.",
 		"error": "An error occured, plesae try again.",
+		"gallery": {
+			"invalid": "Invalid Gallery"
+		},
 		"invalidPermissions": "You do not have permission to perform the requested action.",
 		"invalidRequest": "Invalid request.",
 		"notFound": "You have been led astray.",
@@ -355,6 +358,7 @@
 				"weight": "Weight",
 				"yours": "Yours"
 			},
+			"public": "Public",
 			"rockets": {
 				"name": "Rocket",
 				"type": "Rocket Type",
@@ -918,6 +922,7 @@
 			"chuteProtectors": "Chute Protectors",
 			"chuteReleases": "Chute Releases",
 			"deploymentBags": "Deployment Bags",
+			"gallery": "Gallery",
 			"inventory": "Inventory",
 			"launches": "Launches",
 			"locations": "Locations",
@@ -1352,6 +1357,7 @@
 			"checklists": {
 				"title": "Checklists"
 			},
+			"gallery": "Gallery",
 			"info": {
 				"title": "Information", 
 				"3dprinting": "3D Printing", 
@@ -1426,7 +1432,8 @@
 				}
 			},
 			"rockets": {
-				"title": "Rocket Gallery",
+				"title": "Rocket",
+				"plural": "Rockets",
 				"albums": {
 					"plural": "Photo Albums",
 					"title": "Photo Album"
