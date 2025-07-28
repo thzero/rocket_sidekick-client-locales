@@ -24,16 +24,19 @@
 		"expandAll": "Expand",
 		"export": "Export",
 		"filter": "Filter",
+		"gallery": "Gallery",
 		"inProgress": "In Progress",
 		"launch": "Launch",
 		"link": "Link",
 		"ok": "Ok",
+		"open": "Open",
 		"process": "Process",
 		"remove": "REmove",
 		"reset": "Reset",
 		"save": "Save",
 		"search": "Search",
 		"select": "Select",
+		"share": "Share",
 		"start": "Start",
 		"submit": "Submit",
 		"top": "Top",
@@ -97,6 +100,9 @@
 			"inventory": {
 				"exists": "The part already exists in the inventory."
 			},
+			"gallery": {
+				"invalid": "Invalid Gallery"
+			},
 			"tools": {
 				"flightInfo": {
 					"nonQuantum": "Not a Quantum flight export file.",
@@ -135,9 +141,6 @@
 		"duplicateNumber": "There is already a {objectType} with the number of \\'{number}\\'.",
 		"duplicateOrder": "There is already a {objectType} with order \\'{order}\\'.",
 		"error": "An error occured, plesae try again.",
-		"gallery": {
-			"invalid": "Invalid Gallery"
-		},
 		"invalidPermissions": "You do not have permission to perform the requested action.",
 		"invalidRequest": "Invalid request.",
 		"notFound": "You have been led astray.",
@@ -645,7 +648,10 @@
 			}
 		},
 		"externalId": "External Id",
-		"gamerTag": "Known As",
+		"gamerTag": "Known As Id",
+		"gamerTag_hint": "Allowed characters - a-z, A-Z, 0-9, _, -, and period.",
+		"gamerTagDisplay": "Known As",
+		"gamerTagDisplay_hint": "Allowed characters - a-z, A-Z, 0-9, _, -, =, ', \", period, and comma.",
 		"id": "Id",
 		"link": "Link",
 		"listing": "Listing",
