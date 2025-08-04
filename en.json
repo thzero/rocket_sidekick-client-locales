@@ -207,6 +207,7 @@
 				"plural": "Launches",
 				"album": "Photo Album Url",
 				"cover": "Photo Cover Url",
+				"date": "Date",
 				"dates": "Dates",
 				"failureReasons": "Failure Reasons",
 				"location": {
@@ -217,12 +218,16 @@
 				"results": {
 					"title": "Results",
 					"acceleration": {
-						"max": "Acceleration (Max.)"
+						"max": "Acceleration (Max.)",
+						"max2": "Acceleration"
 					},
 					"altitude": {
 						"drogue": "Altitude (Drogue Deploy)",
+						"drogue2": "Altitude (Drogue)",
 						"main": "Altitude (Main Deploy)",
-						"max": "Altitude (Max.)"
+						"main2": "Altitude (Main)",
+						"max": "Altitude (Max.)",
+						"max2": "Altitude"
 					},
 					"coords": {
 						"launch": "Launch",
@@ -232,6 +237,7 @@
 					},
 					"velocity": {
 						"max": "Velocity (Max.)",
+						"max2": "Velocity",
 						"recovery": "Velocity (Ground Hit)"
 					}
 				},
