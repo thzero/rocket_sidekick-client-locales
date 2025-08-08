@@ -213,6 +213,7 @@
 				"location": {
 					"title": "Location"
 				},
+				"map": "Map",
 				"notes": "Notes",
 				"notes_hint": "Use {link} for complex editing.",
 				"results": {
@@ -253,6 +254,7 @@
 					"windspeed": "Wind Speed"
 				},
 				"success": "Success",
+				"urls": "Album and Video",
 				"video": "Video Url"
 			},
 			"locations": {
@@ -319,6 +321,10 @@
 				"length": "Length",
 				"manufacturer": "Manufacturer",
 				"manufacturerId": "Manufacturer Id",
+				"manufacturerRocketName": "Manuf. Rocket Name",
+				"manufacturerStockId": "Manuf. Stock Id",
+				"manufacturerRocketName2": "Rocket Name",
+				"manufacturerStockId2": "Stock Id",
 				"max": {
 					"name": "Maxium",
 					"abbr": "Max."
