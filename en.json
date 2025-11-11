@@ -207,7 +207,11 @@
 				"plural": "Launches",
 				"album": "Photo Album Url",
 				"cover": "Photo Cover Url",
-				"date": "Date",
+				"date": {
+					"from": "Date To",
+					"title": "Date",
+					"to": "Date To"
+				},
 				"dates": "Dates",
 				"failureReasons": "Failure Reasons",
 				"location": {
@@ -357,7 +361,7 @@
 					},
 					"thinMill": "Thin Mill"
 				},
-				"public": "Public",
+				"public": "Shared",
 				"recovery": "Recovery",
 				"streamer": {
 					"name": "Streamer",
@@ -373,7 +377,7 @@
 				"weight": "Weight",
 				"yours": "Yours"
 			},
-			"public": "Public",
+			"public": "Shared",
 			"rockets": {
 				"name": "Rocket",
 				"type": "Rocket Type",
@@ -1243,7 +1247,7 @@
 				"UK": "United Kingdom Rocketry Association"
 			},
 			"parts": {
-				"isPublic": "Public"
+				"isPublic": "Shared"
 			},
 			"public": "Shared",
 			"rockets": {
