@@ -386,6 +386,7 @@
 					"type": "Type",
 					"url": "Url"
 				},
+				"ballast": "Ballast",
 				"cg": "Center of Gravity",
 				"cgFrom": "Direction",
 				"cp": "Center of Pressure",
@@ -401,6 +402,12 @@
 					"name": "Name",
 					"type": "Type",
 					"url": "Url"
+				},
+				"ejection": {
+					"name": "Ejection",
+					"backup": "Backup",
+					"drogue": "Drogue",
+					"main": "Main"
 				},
 				"from": "From Rocket",
 				"length": "Length",
@@ -1251,6 +1258,7 @@
 			},
 			"public": "Shared",
 			"rockets": {
+				"ejection": "Ejection Charges",
 				"in": "in",
 				"levels": {
 					"low": "Low",
