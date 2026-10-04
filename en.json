@@ -31,7 +31,7 @@
 		"ok": "Ok",
 		"open": "Open",
 		"process": "Process",
-		"remove": "REmove",
+		"remove": "Remove",
 		"reset": "Reset",
 		"save": "Save",
 		"search": "Search",
@@ -42,7 +42,7 @@
 		"top": "Top",
 		"use": "Use",
 		"view": "View",
-		"checklists": {	
+		"checklists": {
 			"step": "Step"
 		}
 	},
@@ -113,7 +113,11 @@
 					"nonBR": "Not a Featherweight BlueRaven file.",
 					"nonIFIP": "Not a Featherweight iFIP file.",
 					"noProcessor": " No Flight Data Type selected.",
-					"withoutHeaders": "No headers detected in file."
+					"withoutHeaders": "No headers detected in file.",
+					"noFlights": "No flights were detected in the file.",
+					"noTemplate": "No output template selected.",
+					"template": "The output template failed to render; check its syntax.",
+					"templateName": "A template file must be named <name>.<ext>.hbs (for example my-track.kml.hbs)."
 				},
 				"foam": {
 					"finTabFinRoot": "Greater than the Fin Root Length",
@@ -175,8 +179,8 @@
 			},
 			"postalCode": "Postal Code",
 			"stateProvince": {
-				"title": "State/Province" ,
-				"plural": "States/Provinces" 
+				"title": "State/Province",
+				"plural": "States/Provinces"
 			}
 		},
 		"checklists": {
@@ -494,7 +498,7 @@
 					"csv": "CSV GPS Flight Data",
 					"date": "Flight Date",
 					"filter": {
-						"distance": "Filter Distance"
+						"speed": "Max. Horizontal Speed (m/s)"
 					},
 					"flightPath": "Flight Path",
 					"groundPath": "Ground Path",
@@ -507,7 +511,9 @@
 						"gps": "GPS",
 						"input": "Input Measurement Units",
 						"output": "Output Measurement Units",
-						"velocity": "Velocity"
+						"velocity": "Velocity",
+						"acceleration": "Acceleration",
+						"distance": "Distance"
 					},
 					"processors": {
 						"title": "Flight Data Type",
@@ -515,42 +521,90 @@
 						"featherweightIFIP": "Featherweight IFIP",
 						"featherweightBR": "Featherweight BlueRaven"
 					},
-					"style": {
-						"title": "Flight Path Styles",
-						"flight": {
-							"color": "Flight Path Color"
-						},
-						"ground": {
-							"color": "Ground Path Color"
-						},
-						"launch": {
-							"color": "Launch Pin Color",
-							"selected": "Display Launch Pin"
-						},
-						"maxAltitude": {
-							"color": "Max. Altitude Pin Color",
-							"selected": "Display Max. Altitude Pin"
-						},
-						"maxVelocity": {
-							"color": "Max. Velocity Pin Color",
-							"selected": "Display Max. Velocity Pin"
-						},
-						"touchdown": {
-							"color": "Touchdown Pin Color",
-							"selected": "Display Touchdown Pin"
-						}
+					"touchdown": "Touchdown",
+					"flight": "Flight",
+					"waypoints": {
+						"title": "Waypoints",
+						"pad": "Pad",
+						"liftoff": "Liftoff",
+						"maxAcceleration": "Max. Acceleration",
+						"maxVelocity": "Max. Velocity",
+						"apogee": "Apogee",
+						"drogue": "Drogue",
+						"main": "Main",
+						"ejection": "Ejection",
+						"landing": "Landing"
 					},
-					"templates": {
-						"main": "Main Template",
-						"pins": {
-							"additional": "Additional Pins Template",
-							"launch": "Launch Pin Template",
-							"maxAltitude": "Max. Altitude",
-							"maxVelocity": "Max. Velocity",
-							"touchdown": "Touchdown Pin Template"
-						}
+					"balloon": {
+						"time": "Time",
+						"altitude": "Altitude",
+						"altitudeMsl": "Altitude (MSL)",
+						"distance": "Distance",
+						"velocity": "Velocity",
+						"acceleration": "Acceleration",
+						"maxRange": "Max. Range",
+						"timeToApogee": "Time to Apogee",
+						"flightTime": "Flight Time",
+						"source": "Source"
 					},
-					"touchdown": "Touchdown"
+					"export": {
+						"format": {
+							"title": "Output Format",
+							"template": "Template",
+							"templateDrop": "Add your own template: drop a file named <name>.<ext>.hbs",
+							"userTemplates": "Your templates"
+						},
+						"templates": {
+							"kml": "KML (Google Earth)",
+							"waypoints-csv": "Waypoint CSV",
+							"gpx": "GPX track"
+						},
+						"mission": {
+							"title": "Mission",
+							"name": "Mission Name",
+							"onWaypoints": "Prefix waypoints with mission"
+						},
+						"placements": {
+							"title": "Placements",
+							"presets": {
+								"driftCast": "Drift cast",
+								"flightPath": "Flight path",
+								"landing": "Landing plots"
+							},
+							"altitudeReference": "Track altitude",
+							"waypointAltitudeReference": "Pin altitude",
+							"altitudeReferences": {
+								"automatic": "Automatic",
+								"ground": "Above ground",
+								"seaLevel": "Above sea level",
+								"clamped": "On the ground"
+							},
+							"shadow": "Draw shadow"
+						},
+						"waypoints": {
+							"showLabels": "Show names",
+							"colorPins": "Color pins",
+							"colorPinsByFlight": "Color pins by flight",
+							"descriptions": "Summary balloons"
+						},
+						"path": {
+							"title": "Flight Path",
+							"flightPath": "Flight path line",
+							"groundTrack": "Ground track",
+							"stride": "Keep every Nth point",
+							"oneFilePerFlight": "One file per flight",
+							"launchAltitude": "Launch site elevation"
+						},
+						"colors": {
+							"title": "Colors",
+							"pins": "Pin colors",
+							"flights": "Flight colors",
+							"path": "Path",
+							"ground": "Ground",
+							"pin": "Pins",
+							"reprocess": "Process again to apply flight colors."
+						}
+					}
 				},
 				"foam": {
 					"bodyTubeID": "Body Tube ID",
@@ -725,7 +779,7 @@
 	"home": {
 		"welcome": "Hello {msg}!"
 	},
-	"measurements":{
+	"measurements": {
 		"time": {
 			"seconds": "Seconds",
 			"secondsAbbrev": "sec",
@@ -736,37 +790,37 @@
 				"abbr": "ft/s^s"
 			},
 			"altitude": {
-				"abbr" : "ft",
-				"name" : "Feet"
+				"abbr": "ft",
+				"name": "Feet"
 			},
 			"temperature": {
-				"abbr" : "f",
-				"name" : "Farhenheit"
+				"abbr": "f",
+				"name": "Farhenheit"
 			},
 			"time": {
-				"abbr" : "s"
+				"abbr": "s"
 			},
 			"velocity": {
-				"abbr" : "ft/s"
+				"abbr": "ft/s"
 			}
 		},
-		"metric":{
-			"acceleration":{
-				"abbr" : "m/s^s"
+		"metric": {
+			"acceleration": {
+				"abbr": "m/s^s"
 			},
-			"altitude":{
-				"abbr" : "m",
-				"name" : "Meters"
+			"altitude": {
+				"abbr": "m",
+				"name": "Meters"
 			},
 			"temperature": {
-				"abbr" : "c",
-				"name" : "Celcius"
+				"abbr": "c",
+				"name": "Celcius"
 			},
-			"time":{
-				"abbr" : "s"
+			"time": {
+				"abbr": "s"
 			},
-			"velocity":{
-				"abbr" : "m/s"
+			"velocity": {
+				"abbr": "m/s"
 			}
 		}
 	},
@@ -911,7 +965,7 @@
 			"title": "Content",
 			"info": {
 				"title": "Info",
-				"3dprinting": "3D Printing", 
+				"3dprinting": "3D Printing",
 				"epoxy": "Epoxy",
 				"highPower": "High Power Rocketry",
 				"safetyRules": "Safety Rules",
@@ -925,14 +979,14 @@
 				"title": "Rocket Gallery"
 			},
 			"tools": {
-				"title": "Tools", 
+				"title": "Tools",
 				"ejectionCharges": "Ejection Charges",
 				"flightInfo": "Flight Info",
 				"flightPath": "Flight Path",
 				"foam": "Fin Can Foam Calculator",
 				"parachuteSizing": "Parachute Sizing",
 				"staticPortHoles": "Static Port Holes",
-				"thrust2Weight": "Thrust 2 Weight", 
+				"thrust2Weight": "Thrust 2 Weight",
 				"weathercocking": "Weathercocking"
 			},
 			"website": "Website"
@@ -1150,11 +1204,11 @@
 					"compressionStrength": "Compression strength (psi)",
 					"deflectionTempC": "Deflection temp. (C)",
 					"density": "Density (g/cm3)",
-                    "impact" : "IZOD Impact Strength (kJ/㎡)",
-                    "flexuralModulus" : "Flexural Modulus (MPa)",
-                    "flexuralStrength" : "Flexural Strength (MPa)",
-                    "tensileElongation" : "Elongation at Break (%)",
-                    "tensileStrength" : "Tensile Strength (MPa)",
+					"impact": "IZOD Impact Strength (kJ/㎡)",
+					"flexuralModulus": "Flexural Modulus (MPa)",
+					"flexuralStrength": "Flexural Strength (MPa)",
+					"tensileElongation": "Elongation at Break (%)",
+					"tensileStrength": "Tensile Strength (MPa)",
 					"whatIs": "3D printing or additive manufacturing is a process of making three dimensional solid objects from a digital file.The creation of a 3D printed object is achieved using additive processes. In an additive process an object is created by laying down successive layers of material until the object is created. Each of these layers can be seen as a thinly sliced cross-section of the object. 3D printing is the opposite of subtractive manufacturing which is cutting out / hollowing out a piece of metal or plastic with for instance a milling machine.3D printing enables you to produce complex shapes using less material than traditional manufacturing methods."
 				},
 				"epoxy": {
@@ -1214,8 +1268,8 @@
 				"location": "Location",
 				"reasons": {
 					"failure": {
-						"cato": "Cato", 
-						"deployment": "Deployment", 
+						"cato": "Cato",
+						"deployment": "Deployment",
 						"lost": "Lost",
 						"rud": "Rapid Unscheduled Disassembly"
 					},
@@ -1389,9 +1443,9 @@
 			},
 			"gallery": "Gallery",
 			"info": {
-				"title": "Information", 
-				"3dprinting": "3D Printing", 
-				"epoxy": "Epoxy", 
+				"title": "Information",
+				"3dprinting": "3D Printing",
+				"epoxy": "Epoxy",
 				"highPower": "High Power Rocketry",
 				"safetyRules": "Safety Rules",
 				"shearPins": "Shear Pins"
@@ -1497,7 +1551,7 @@
 		"edit": "Edit",
 		"editType": "Edit {type}",
 		"external": {
-		 	"motorSearch": "Motor Search"
+			"motorSearch": "Motor Search"
 		},
 		"help": "Help",
 		"home": "Home",
@@ -1551,4 +1605,4 @@
 		"majorMinorDate": "{major}.{minor}.{patch} {date}",
 		"label": "Version"
 	}
- }
+}
